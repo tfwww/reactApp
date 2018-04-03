@@ -1,8 +1,14 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import registerServiceWorker from './registerServiceWorker';
+import './styles/common.css'
+import './styles/app.css'
+import React from 'react'
+import ReactDOM from 'react-dom'
+import App from './App'
+import Footer from './shared/Footer'
+import adjustToAgent from './utils/head'
+import registerServiceWorker from './registerServiceWorker'
 
-ReactDOM.render(<App />, document.getElementById('root'));
+adjustToAgent()
+ReactDOM.render(<App />, document.getElementById('root'))
+ReactDOM.render(<Footer />, document.getElementById('footer'))
 registerServiceWorker();
+
