@@ -50,7 +50,7 @@ class Footer extends Component {
     render() {
 
         const listItems = list.map((item) =>
-            <li className={this.state.inx === item.inx ? 'on' : ''} onClick={() => this.handleClick(item.inx)}>
+            <li className={this.state.inx === item.inx ? 'on' : ''} onClick={() => this.handleClick(item.inx)} key={item.inx}>
                 <h2 className="footer-icon">
                     <img src={this.state.inx === item.inx ? item.onImg : item.img} alt="index" />
                 </h2>
