@@ -19,7 +19,7 @@ if (winW > desW) {
 if(window.location.href.indexOf('/jx/') >=0 || window.location.href.indexOf('/wxfront/bind') >= 0){
     document.documentElement.className +=' jx';
 }
-function adjustToAgent(){
+function adjustToClient(){
     var ua = navigator.userAgent.toLowerCase();
     var doc = document.documentElement;
     //wechat
@@ -67,6 +67,6 @@ function adjustToAgent(){
 
 // }();
 
-export default adjustToAgent
+export default adjustToClient
 
 export {isWeiXin, isApp, isIosApp, isAndroidApp, isIosSys, isAndroidSys, needUnlock, isNative}
