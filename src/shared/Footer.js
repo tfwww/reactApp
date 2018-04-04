@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-// import './App.css';
 import ft1 from '../images/ft_1.png'
 import ftOn1 from '../images/ft_1_on.png'
 import ft2 from '../images/ft_2.png'
@@ -58,7 +57,9 @@ class Footer extends Component {
         )
 
         return (
-            <ul className='cf'>{listItems}</ul>
+            <footer id="footer" className="menu">
+                <ul className='cf'>{listItems}</ul>
+            </footer>
         )
     }
 }
