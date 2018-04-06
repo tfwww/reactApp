@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import Swiper from 'swiper'
+import log from '../../utils/tool.js'
+
 import 'swiper/dist/css/swiper.min.css'
 import './Slideshow.css'
 // import banner from '../../images/index_banner.png'
@@ -8,8 +10,9 @@ class Slideshow extends Component {
     componentDidMount() {
         new Swiper(this.swiperID, {
             pagination: {
-                el: this.paginateID,
-            }
+                el: '.swiper-pagination',
+            },
+            observer: true,
         });
     }
 

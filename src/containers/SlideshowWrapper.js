@@ -1,11 +1,12 @@
 import React, { Component } from 'react'
 import Slideshow from '../components/Home/Slideshow'
+import log from '../utils/tool.js'
 
 class SlideshowWrapper extends Component {
     constructor(props) {
         super(props)
         this.state = {
-            list: [0, 0]
+            list: []
         }
     }
 
