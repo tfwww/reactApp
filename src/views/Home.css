@@ -1,0 +1,39 @@
+.index-links {border: 1px solid #eaeaea;background: #fff;line-height: .4rem;padding:.18rem 0;color: #333;font-size: .26rem;text-align: center;}
+.index-links span {display: inline-block;padding-left: .4rem;}
+.index-links a + a {border-left: 1px solid #ededed;}
+/* .index-links .baozhang {background: url(../img/icon/bz.png) no-repeat 0 center;background-size:.26rem .31rem;} */
+/* .index-links .invit {background: url(../img/icon/invit.png) no-repeat 0 center;background-size:.31rem auto;} */
+.index-prod-item {color: #878787;font-size: .24rem;position: relative;margin: .35rem .18rem;padding: 0 .47rem .36rem;background: #fff;}
+/* .index-prod-item.new-hand:after {content: '';position: absolute;top: .19rem;right: .45rem;width: 1.27rem;height: 1.67rem;background: url(../img/icon/newhand.png) no-repeat 0 0;background-size:100% auto;} */
+/* .index-prod-item .title {margin: 0 -.47rem;text-align: center;font-size: .31rem;color: #333;background: url(../img/icon/bg_line.jpg) no-repeat 0 bottom ;background-size:100% auto;line-height: 1.1;padding: .22rem 0 .38rem;} */
+.index-prod-item .date {line-height: .4rem;}
+.index-prod-item .gains {text-align: center;padding: .8rem 0 .46rem;}
+.index-prod-item .gains-num {color: #fd5a21;line-height: 1;font-size: .41rem;}
+.index-prod-item .gains-num b {font-size: 1.1rem;}
+.index-prod-item .gains-reward {position: relative;}
+/* .index-prod-item .gains-reward:after {content: '';background: url(../img/icon/reward.png) no-repeat 0 0;background-size:100% auto;width: .56rem;height: .38rem;position: absolute;top: -.38rem;left: .26rem;} */
+.index-prod-item .progress {line-height: .56rem;}
+.index-prod-item .progress-line {clear: both;background: #c9c9c9;height: 6px;border-radius: 6px;overflow: hidden;}
+.index-prod-item .progress-bar {background: #fd5a21;height: 6px;}
+.index-prod-item .btn {margin-top: .24rem;text-align: center;background: #fd5a21;line-height: .76rem;display: block;border-radius: 4px;text-align: center;color: #fff;font-size: .28rem;}
+.index-prod-item .btn.full,
+.index-prod-item .btn.wait,
+.btn[left_time_int^="1"],
+.btn[left_time_int^="2"],
+.btn[left_time_int^="3"],
+.btn[left_time_int^="4"],
+.btn[left_time_int^="5"],
+.btn[left_time_int^="6"],
+.btn[left_time_int^="7"],
+.btn[left_time_int^="8"],
+.btn[left_time_int^="9"]
+{background: #adadad;}
+.index-body .main-wrapper {min-height: 0}
+
+.big-screen .index-body {overflow:hidden;}
+.big-screen .index-content {position:absolute;top:3.4rem;bottom:1rem;width:94%;margin:3%;max-width: 640px;}
+.big-screen .index-content .index-prod-item {position:absolute;width:100%;height:100%;margin:0;}
+.big-screen .index-content .index-prod-item .gains {position: absolute;width: 100%;top: .9rem;bottom: 1.58rem;left: 0;}
+.big-screen .index-content .table {display:table;height: 100%;width: 100%;text-align: center;}
+.big-screen .index-content .table-cell {display:table-cell;vertical-align: middle;height: 100%;}
+.big-screen .index-content #content-bottom {position: absolute;bottom: 10px;width: 100%;left: 0;padding: 0 .47rem;}

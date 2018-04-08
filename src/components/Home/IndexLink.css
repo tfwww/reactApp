@@ -1,0 +1,13 @@
+.index-links .baozhang {
+    background: url(../../images/indexLink_bz.png) no-repeat 0 center;
+    background-size: .26rem .31rem;
+}
+.index-links span {
+    display: inline-block;
+    padding-left: .4rem;
+}
+
+.index-links .invit {
+    background: url(../../images/indexLink_invite.png) no-repeat 0 center;
+    background-size: .31rem auto;
+}
