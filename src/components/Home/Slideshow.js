@@ -10,7 +10,7 @@ class Slideshow extends Component {
     componentDidMount() {
         new Swiper(this.swiperID, {
             pagination: {
-                el: '.swiper-pagination',
+                el: this.paginateID,
             },
             observer: true,
         });
