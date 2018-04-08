@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import Swiper from 'swiper'
+// import Swiper from 'swiper'
+import Swiper from 'swiper/dist/js/swiper.js'
 import log from '../../utils/tool.js'
 
 import 'swiper/dist/css/swiper.min.css'

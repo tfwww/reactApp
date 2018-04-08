@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import Footer from '../shared/Footer'
 import SlideshowWrapper from '../containers/SlideshowWrapper'
-import IndexLink from '../components/Home/IndexLink'
+import IndexBtn from '../components/Home/IndexBtn'
+// import { Switch, Route } from 'react-router-dom'
 import './Home.css'
 
 class Home extends Component {
@@ -9,7 +10,7 @@ class Home extends Component {
         return (
             <div className="Home">
                 <SlideshowWrapper />
-                <IndexLink />
+                <IndexBtn />
                 <Footer />
             </div>
         );
