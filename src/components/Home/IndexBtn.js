@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import log from '../../utils/tool.js'
 import './IndexBtn.css'
 
-class IndexLink extends Component {
+class IndexBtn extends Component {
     render() {
         return (
             <div className="index-links col-2">
@@ -17,4 +17,4 @@ class IndexLink extends Component {
     }
 }
 
-export default IndexLink
+export default IndexBtn
