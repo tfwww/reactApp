@@ -2,17 +2,17 @@ import React, { Component } from 'react';
 import Footer from '../shared/Footer'
 
 // import { Switch, Route } from 'react-router-dom'
-import './Invest.css'
+import './Mine.css'
 
-class Invest extends Component {
+class Mine extends Component {
     render() {
         return (
-            <div className="Invest">
-                Invest
-                <Footer initInx={1} />
+            <div className="Mine">
+                Mine
+                <Footer initInx={3} />
             </div>
         );
     }
 }
 
-export default Invest;
+export default Mine;

@@ -34,8 +34,8 @@ class Footer extends Component {
             {inx: 3, img: ft4, onImg: ftOn4, content: '我的', link: '/Mine'},
         ]
         return list.map((item) =>
-            <Link to={item.link}>
-                <li className={this.state.inx === item.inx ? 'on' : ''} onClick={() => this.handleClick(item.inx)} key={item.inx}>
+            <Link to={item.link} key={item.inx}>
+                <li className={this.state.inx === item.inx ? 'on' : ''} onClick={() => this.handleClick(item.inx)}>
                     <h2 className="footer-icon">
                         <img src={this.state.inx === item.inx ? item.onImg : item.img} alt="index" />
                     </h2>
