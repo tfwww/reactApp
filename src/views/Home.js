@@ -13,7 +13,7 @@ class Home extends Component {
                 <SlideshowWrapper />
                 <IndexBtn />
                 <IndexContent />
-                <Footer />
+                <Footer initInx={0}/>
             </div>
         );
     }

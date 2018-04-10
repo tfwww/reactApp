@@ -11,20 +11,20 @@ class IndexContent extends Component {
         }
     }
     componentDidMount() {
-        const url = '/appInterfaceController/getShPlanList'
-        fetch(url).then(res => res.json()).then(
-            (result) => {
-                this.setState({
-                    indexPlan: result.data.voList[0] || {}
-                })
-            },
-            (error) => {
-                this.setState({
-                    // isLoaded: true,
-                    // error
-                });
-            }
-        )
+        // const url = '/appInterfaceController/getShPlanList'
+        // fetch(url).then(res => res.json()).then(
+        //     (result) => {
+        //         this.setState({
+        //             indexPlan: result.data.voList[0] || {}
+        //         })
+        //     },
+        //     (error) => {
+        //         this.setState({
+        //             // isLoaded: true,
+        //             // error
+        //         });
+        //     }
+        // )
     }
     render() {
         const indexPlan = this.state.indexPlan
