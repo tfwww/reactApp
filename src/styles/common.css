@@ -62,7 +62,7 @@ h3 {color: #333;}
 .ios-browser .content_ul {padding-top:1.3rem;}
 .ios-browser .hand-password {padding-top: 70px;}
 
-.app-title:after{content:'';position: absolute;left: 0;top: 0;width: 100%;height: 1000px;z-index: 99999;}
+/* .app-title:after{content:'';position: absolute;left: 0;top: 0;width: 100%;height: 1000px;z-index: 99999;} */
 .app-title.on:after{display: none;}
 
 .bees-loading {position: fixed; left: 0; top: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.6);z-index: 99999;display: none; }
