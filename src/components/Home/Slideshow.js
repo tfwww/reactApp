@@ -19,7 +19,6 @@ class Slideshow extends Component {
 
     renderList() {
         const list = this.props.list
-        console.log('list', list)
         let listItems = []
         if (list.length > 0) {
             listItems = list.map((item, index) => {

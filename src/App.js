@@ -14,6 +14,7 @@ class App extends Component {
                 <Route path='/Invest' component={Invest} />
                 <Route path='/Find' component={Find} />
                 <Route path='/Mine' component={Mine} />
+                <Route path='/test' component={Mine} />
             </Switch>
         );
     }
