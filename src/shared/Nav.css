@@ -1,0 +1,5 @@
+.app-title {color: #fff;background: #fd5a21;font-size: 18px;line-height: 46px;height: 44px;text-align: center;position:fixed;width: 100%;left: 0;top: 0;z-index: 998;}
+.app-title + .main-wrapper{padding-top: 44px;}
+.app-title ~ #wrapper {top: 44px;}
+.app-title .goBack {height: 100%;background: url(../images/nav_arr_left.png) no-repeat .18rem center;background-size:.42rem auto;width: .8rem;position: absolute;left: 0;}
+.app-title-right {position:absolute;right:10px;font-size:12px;}
